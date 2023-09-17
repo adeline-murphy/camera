@@ -55,6 +55,107 @@
     },
     "children": [
         {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "Confirm picture was taken?",
+                "FontSize": 17,
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "TextAlign": "left",
+                "Height": 25,
+                "Width": 235,
+                "Visible": true,
+                "X": 113,
+                "Y": 410,
+                "RelativeX": 113,
+                "RelativeY": 410,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 17,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "69.2%",
+                    "top": "47.01555472263868%",
+                    "lineHeight": 1,
+                    "display": "flex",
+                    "textAlign": "left"
+                },
+                "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
+                "position": "absolute",
+                "edgeOffsets": 410,
+                "children": "Confirm picture was taken?",
+                "Font": "Roboto"
+            },
+            "children": [],
+            "id": "01fa474f-5e99-47cc-b440-3adae0ca8ffb",
+            "thunkableVersion": 421,
+            "name": "confirmation"
+        },
+        {
+            "type": "Switch",
+            "translatedName": "Switch",
+            "reactType": "Switch",
+            "properties": {
+                "value": true,
+                "Visible": true,
+                "tintColor": "rgba(176, 176, 176, 100)",
+                "onTintColor": "rgba(208, 215, 231, 100)",
+                "thumbTintColor": "rgba(93, 122, 252, 100)",
+                "offThumbTintColor": "rgba(248, 249, 251, 100)",
+                "Height": 37.5,
+                "Width": 75,
+                "X": 34,
+                "Y": 405,
+                "RelativeX": 34,
+                "RelativeY": 405,
+                "ResizeMode": "STRETCH",
+                "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
+                "position": "absolute",
+                "edgeOffsets": 405,
+                "style": {
+                    "position": "absolute",
+                    "left": "66.8%",
+                    "top": "49.41435532233883%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "88e5248d-d83c-41af-bee2-ddb001ed4b5e",
+            "thunkableVersion": 421,
+            "name": "confirmationswitch"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -98,7 +199,7 @@
             "children": [],
             "id": "e4753c75-4db7-4069-9638-3f78138999c7",
             "thunkableVersion": 420,
-            "name": "Image2"
+            "name": "305soft"
         },
         {
             "type": "Label",
@@ -166,7 +267,7 @@
             "children": [],
             "id": "c60d41b7-35c1-43e5-a9e7-d384aaad670a",
             "thunkableVersion": 420,
-            "name": "Label1"
+            "name": "title"
         },
         {
             "type": "Button",
@@ -177,13 +278,13 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 36,
-                "Width": 313,
+                "Height": 49,
+                "Width": 152,
                 "Visible": true,
-                "X": 35,
-                "Y": 534,
-                "RelativeX": 35,
-                "RelativeY": 534,
+                "X": 192,
+                "Y": 533,
+                "RelativeX": 192,
+                "RelativeY": 533,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -214,7 +315,7 @@
                 "Disabled": false,
                 "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
                 "position": "absolute",
-                "edgeOffsets": 534
+                "edgeOffsets": 533
             },
             "children": [],
             "id": "9f54bd8e-2efe-4ce2-abb5-9deae278eea2",
@@ -230,13 +331,13 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 35,
-                "Width": 313,
+                "Height": 49,
+                "Width": 136,
                 "Visible": true,
                 "X": 34,
-                "Y": 490,
+                "Y": 533,
                 "RelativeX": 34,
-                "RelativeY": 490,
+                "RelativeY": 533,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -267,7 +368,7 @@
                 "Disabled": false,
                 "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
                 "position": "absolute",
-                "edgeOffsets": 490
+                "edgeOffsets": 533
             },
             "children": [],
             "id": "d7040915-305d-4c5b-b6d2-6e631dc783ad",
@@ -286,10 +387,10 @@
                 "Height": 36,
                 "Width": 312,
                 "Visible": true,
-                "X": 35,
-                "Y": 444,
-                "RelativeX": 35,
-                "RelativeY": 444,
+                "X": 31,
+                "Y": 492,
+                "RelativeX": 31,
+                "RelativeY": 492,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -320,7 +421,7 @@
                 "Disabled": false,
                 "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
                 "position": "absolute",
-                "edgeOffsets": 444.00000000000006
+                "edgeOffsets": 492.00000000000006
             },
             "children": [],
             "id": "6a0b703b-e99d-49e1-8035-db874f512f8a",
@@ -404,10 +505,10 @@
                 "Height": 33,
                 "Width": 313,
                 "Visible": true,
-                "X": 35,
-                "Y": 403,
-                "RelativeX": 35,
-                "RelativeY": 403,
+                "X": 31,
+                "Y": 448,
+                "RelativeX": 31,
+                "RelativeY": 448,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -438,7 +539,7 @@
                 "Disabled": false,
                 "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
                 "position": "absolute",
-                "edgeOffsets": 403
+                "edgeOffsets": 448
             },
             "children": [],
             "id": "826f4cc0-a768-4fae-afcf-0f864ecf7f7c",
@@ -454,13 +555,13 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 35,
-                "Width": 311,
+                "Height": 37,
+                "Width": 318,
                 "Visible": true,
                 "X": 34,
-                "Y": 359,
+                "Y": 361,
                 "RelativeX": 34,
-                "RelativeY": 359,
+                "RelativeY": 361,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -491,7 +592,7 @@
                 "Disabled": false,
                 "ParentId": "54177caf-84d4-462b-9957-1f0ade11e69f",
                 "position": "absolute",
-                "edgeOffsets": 359
+                "edgeOffsets": 361
             },
             "children": [],
             "id": "8ccf7d65-8110-468a-8f44-ad5a164c8ed2",
@@ -541,7 +642,7 @@
             "children": [],
             "id": "20e0980e-6baa-4478-89c9-e97609f4ee20",
             "thunkableVersion": 420,
-            "name": "Image1"
+            "name": "camerapic"
         }
     ],
     "id": "54177caf-84d4-462b-9957-1f0ade11e69f",
